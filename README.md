@@ -31,6 +31,6 @@ npm install
 **3.** Push to GitHub with version number as tag with v affixed. For example:
 
 ```console
-git tag v1.0.3
-git push origin v1.0.3
+git tag v1.0.4
+git push origin v1.0.4
 ```
