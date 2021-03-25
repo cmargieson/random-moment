@@ -1,13 +1,13 @@
 {
   "name": "random-moment",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Craig Margieson",
+  "license": "MIT",
   "peerDependencies": {
     "moment": "^2.27.0"
   }
