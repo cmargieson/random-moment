@@ -1,14 +1,24 @@
 {
   "name": "random-moment",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "jest"
   },
   "author": "Craig Margieson",
   "license": "MIT",
   "peerDependencies": {
     "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@types/node": "^14.14.37",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "@babel/preset-typescript": "^7.13.0"
   }
 }
