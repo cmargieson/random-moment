@@ -22,7 +22,7 @@ const randomDate = randomMoment(startDate, endDate);
 
 **1.** Update package.json version to increment npm version.
 
-**2.**
+**2.** Install packages.
 
 ```console
 npm install
