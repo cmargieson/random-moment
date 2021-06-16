@@ -35,6 +35,8 @@ test("moment is not before 1995-11-25 or after 1995-11-26", () => {
 //   expect(() => randomMoment(1, "apples")).toThrow();
 // });
 
-// test("throws an error", () => {
-//   expect(() => randomMoment(moment("2002-08-28"), moment("1990-10-01"))).toThrow();
-// });
+test("throws an error", () => {
+  expect(() =>
+    randomMoment(moment("2002-08-28"), moment("1990-10-01"))
+  ).toThrow();
+});
