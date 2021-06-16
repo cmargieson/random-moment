@@ -17,20 +17,3 @@ const endDate = moment().subtract(30, "days");
 
 const randomDate = randomMoment(startDate, endDate);
 ```
-
-## Deploying to NPM with CircleCI
-
-**1.** Update package.json version to increment npm version.
-
-**2.** Install packages.
-
-```console
-npm install
-```
-
-**3.** Push to GitHub with version number as tag with v affixed. For example:
-
-```console
-git tag v1.0.4
-git push origin v1.0.4
-```
